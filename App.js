@@ -12,25 +12,15 @@ import { View, Text, Image, TextInput, TouchableOpacity, StyleSheet, ScrollView,
           <View style={styles.section}>
           <Text style={styles.sectionTitle}>Formação Acadêmica</Text>
           <View style={styles.item}>
-            <Text style={styles.itemTitle}>Analise e desenvolvimento de Sistemas</Text>
+            <Text style={styles.itemTitle}>Análise e Desenvolvimento de Sistemas</Text>
             <Text>Faculdade Senac Pernambuco</Text>
-            <Text>Cursando: 3° Periodo</Text>
+            <Text>Cursando: 3° Período</Text>
             <Text>Ano da Conclusão: 2025</Text>
           </View>
           <View style={styles.item}>
-            <Text style={styles.itemTitle}>Desenvolvedor Web Fullsatck - Bootcamp</Text>
-            <Text>Generation Brazil</Text>
-            <Text>Ano de Conclusão: 2022</Text>
-          </View>
-          <View style={styles.item}>
-            <Text style={styles.itemTitle}>Jogos Digitais</Text>
-            <Text>Escola SAGA de Artes</Text>
-            <Text>Ano de Conclusão: 2021</Text>
-          </View>
-          <View style={styles.item}>
-            <Text style={styles.itemTitle}>Ciencia da Computação</Text>
-            <Text>Faculdade Mauricio de Nassau</Text>
-            <Text>Incompleto: 4 Periodos</Text>
+            <Text style={styles.itemTitle}>Ed.Física</Text>
+            <Text>Faculdade Maurício de Nassau</Text>
+            <Text>Ano de Conclusão: 2010</Text>
           </View>
         </View>
         );
@@ -39,11 +29,7 @@ import { View, Text, Image, TextInput, TouchableOpacity, StyleSheet, ScrollView,
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Experiência Profissional</Text>
             <View style={styles.item}>
-              <Text style={styles.itemTitle}>Desenvolvedor web front-end</Text>
-              <Text>Metodo Ambiental</Text>
-              <Text>Período 01/2023 – Até – 08/2023</Text>
-              <Text>Principal atividades: Responsável pela manutenção e suporte do site e também auxiliei no desenvolvimento de novas ferramentas.</Text>
-              <Text>Tecnologias aprendidas: JavaScript, PHP, Laravel, MySQL.</Text>
+              <Text style={styles.itemTitle}>Nenhuma</Text>
             </View>
             {/* Adicione mais experiências aqui */}
           </View>
@@ -54,25 +40,16 @@ import { View, Text, Image, TextInput, TouchableOpacity, StyleSheet, ScrollView,
             <Text style={styles.sectionTitle}>Habilidades</Text>
 
             <Text style={styles.sectionTitleHabilidades}>Back-End</Text>
-            <Text>- PHP - Básico  </Text>
-            <Text>- Python - Básico </Text>
-            <Text>- MySQL - Avançado</Text>
-            <Text>- Java - Intermediário </Text>
+            <Text>- Python - Iniciante </Text>
+            
 
 
             <Text style={styles.sectionTitleHabilidades}>Front-End</Text>
-            <Text>- Angular - Intermediário</Text>
-            <Text>- CSS - Intermediário </Text>
-            <Text>- JavaScript - Intermediário </Text>
-            <Text>- HTML - Avançado </Text>
-
-            <Text style={styles.sectionTitleHabilidades}>Linguas</Text>
-            <Text>- Inglês - Avançado </Text>
-            <Text>- Espanhol - Intermediário </Text>
-
+            <Text>- CSS - Iniciante </Text>
+            <Text>- HTML - Iniciante </Text>
 
             <Text style={styles.sectionTitleHabilidades}>Outros</Text>
-            <Text>- Pacote Office - intermediário </Text>
+            <Text>- Pacote Office - Iniciante </Text>
 
           </View>
         );
@@ -84,11 +61,11 @@ import { View, Text, Image, TextInput, TouchableOpacity, StyleSheet, ScrollView,
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.titulo}>Portfolio: Renan Amendola</Text>
+        <Text style={styles.titulo}>Portfólio: Erik lins</Text>
         <View style={styles.photoContainer}>
           <Image
             style={styles.photo}
-            source={('./assets/foto_perfil')}
+            source={require('./assets/foto_perfil.png')} 
           />
 
 
